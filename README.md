@@ -387,7 +387,8 @@ Due to the nature of the approach, the generated questions start with a wh-word 
     "question": "What area of medicine is Manhattan known for training?", "answer": "the life sciences", "sentence": "Manhattan is a world center for training and education in medicine and the life sciences."
     "question": "Which city is a world center for education and training in medicine?", "answer": "Manhattan", "sentence": "Manhattan is a world center for training and education in medicine and the life sciences."
     
-    #### ArchivalQA: A Large-scale Benchmark Dataset for Open-DomainQuestion Answering over Historical News Collections
+    
+#### ArchivalQA: A Large-scale Benchmark Dataset for Open-DomainQuestion Answering over Historical News Collections
 *Wang et al.*\
 **PDF:** <https://dl.acm.org/doi/pdf/10.1145/3477495.3531734>\
 **Code:** <https://github.com/WangJiexin/ArchivalQA>\
