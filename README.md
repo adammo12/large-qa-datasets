@@ -386,3 +386,18 @@ Due to the nature of the approach, the generated questions start with a wh-word 
     "question": "What is one of the leading African American weekly newspapers in the US?", "answer": "The New York Amsterdam News", "sentence": "The New York Amsterdam News, based in Harlem, is one of the leading African American weekly newspapers in the United States."
     "question": "What area of medicine is Manhattan known for training?", "answer": "the life sciences", "sentence": "Manhattan is a world center for training and education in medicine and the life sciences."
     "question": "Which city is a world center for education and training in medicine?", "answer": "Manhattan", "sentence": "Manhattan is a world center for training and education in medicine and the life sciences."
+    
+    #### ArchivalQA: A Large-scale Benchmark Dataset for Open-DomainQuestion Answering over Historical News Collections
+*Wang et al.*\
+**PDF:** <https://dl.acm.org/doi/pdf/10.1145/3477495.3531734>\
+**Code:** <https://github.com/WangJiexin/ArchivalQA>\
+**Size:** 532,444 \
+**Year of Publication:** 2022\
+**Approach:** ArchivalQA, a large question answering dataset consisting of 532,444 question-answer pairs which is designed for temporal news QA. The dataset is divided into four subparts based on the question difficulty levels and the containment of temporal expressions, which are useful for training and testing ODQA systems operating on longitudinal news collections and characterized by different strengths and abilities. The questions are automatically generated from New York Times archive collection that spans from 1987 to 2007 and covers close to 2mln news articles. The questions were filtered by multiple filtering stages including removal of non-specific and temporally ambiguous questions.
+\
+**Examples:**
+
+    "question": "Who claimed responsibility for the bombing of Bab Ezzouar?", "answer": "Al Qaeda"
+    "question": "When did Tenneco announce it wasplanning to sell its oil and gas operations?", "answer": "May 26, 1988"
+    "question": "What threat prompted Mr. Paik’s familyto flee to Hong Kong?", "answer": "the Korean War"
+    "question": "Along with the French Open, what othertournament did Haarhuis win in 1998??", "answer": "Wimbledon"
